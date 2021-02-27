@@ -8,7 +8,7 @@ async function criarConexao(){
         }
     });
     
-    let con = await poll.connect();
+    let con = await poll.connect(); 
     /*await con.query(
         `create table Ingredientes(
             id serial,
