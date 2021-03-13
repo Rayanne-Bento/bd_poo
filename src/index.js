@@ -25,7 +25,7 @@ for(c of clientes){
 }*/
 
 async function consultar (){
-    let resul = await Cliente.findAll();
+    let result = await Cliente.findAll();
     console.log(result);
 }
 consultar();
